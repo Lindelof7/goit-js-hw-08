@@ -9,6 +9,6 @@ const onPlay = function(data) {
     console.log("Current time :" , localStorage.getItem("videoplayer-current-time"))
 };
     
-player.setCurrentTime(localStorage.getItem("videoplayer-current-time"))
+player.setCurrentTime(localStorage.getItem(videoplayer-current-time))
 
 player.on('timeupdate', throttle(onPlay, 1000))
